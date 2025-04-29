@@ -1,0 +1,139 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champions League</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+    body {
+        background-color: #f8f9fa;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding-top: 20px;
+    }
+    .table {
+        margin-bottom: 20px;
+        width: 80%;
+        max-width: 600px;
+    }
+    .logo-espaco {
+        width: 50px;
+        height: 50px;
+        background-color: #e9ecef;
+        border-radius: 5px;
+    }
+    .text-center-row > * {
+     text-align: center;
+    }
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+</style>    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-azul">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">
+                <img src="../img/uefa-champions-league-logo.png" alt="Champions Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" aria-current="page" href="index.html">Tela Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="mais-componentes.html">Mais Componentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="tailwind.html">Tailwind</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <table class="table table-bordered">
+            <thead>
+                <tr class="text-center-row">
+                    <th></th>
+                    <th>Placar</th>
+                    <th>ㅤㅤ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text-center-row">
+                    <td>
+                        <div class="logo-espaco">
+                            <img src="../img/Logo_PSG.png" alt="Logo PSG" height="50">
+                            </div>
+                    </td>
+                    <td>PSG 1 x 0 Arsenal</td>
+                    <td>
+                        <div class="logo-espaco">
+                            <img src="../img/Arsenal_FC.svg.webp" alt="Logo PSG" height="50">
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr class="text-center">
+                    <th colspan="3">Próximo Jogo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text-center-row">
+                    <td>
+                        <div class="logo-espaco">
+                            <img src="../img/FCBarcelona.svg.png" alt="Logo PSG" height="50">
+                            </div>
+                    </td>
+                    <td>Barcelona vs Inter</td>
+                    <td>
+                        <div class="logo-espaco">
+                            <img src="../img/FC_Internazionale_Milano_2021.svg.png" alt="Logo PSG" height="50">
+                            </div>
+                    </td>
+                </tr>
+                <tr class="text-center">
+                    <td colspan="3">30/04 - 16h</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <section class="container py-5">
+        <h2 class="text-center mb-4 text-danger">Últimas Notícias sobre a Champions League</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="list-group">
+                    <a href="https://www.terra.com.br/esportes/futebol/internacional/psg-vence-o-arsenal-em-londres-e-fica-a-um-empate-da-final-da-champions,770016469fea8291c72091ac46ef74a2z2x85neq.html" class="list-group-item list-group-item-action p-3 mb-2 border border-primary rounded">
+                        <h6 class="mb-1 fw-bold text-primary">Notícia sobre PSG vs Arsenal</h6>
+                        <p class="mb-1 text-info">PSG bate Arsenal fora de casa e garante jogo tranquilo para volta na França.</p>
+                        <small class="text-primary">Publicado em 29/04/25</small>
+                    </a>
+                    <a href="https://tntsports.com.br/championsleague/Arsenal-x-PSG-e-Barcelona-x-Inter-quem-vence-os-jogos-de-ida-da-semi-da-Champions-League-Vote-20250429-0005.html" class="list-group-item list-group-item-action p-3 mb-2 border border-primary rounded">
+                        <h6 class="mb-1 fw-bold text-primary">Notícia sobre Barcelona vs Inter</h6>
+                        <p class="mb-1 text-info">Barcelona joga a partida de ida em casa na Espanha, decidindo terça que vem na Itália.</p>
+                        <small class="text-primary">Publicado em 02/04/25</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
